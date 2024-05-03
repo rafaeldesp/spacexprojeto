@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import "./communElements/variables.scss";
+
+@import "./communElements/communElements.scss";
+
+@import "./pages/home.scss";
+
+@import "./pages/falcon9.scss";
+
+@import "./pages/humanSpace.scss";
+
+table tr td, table tr th{
+    background-color: rgba(0,0,0, 0.0) !important;
+}
+
+td {
+    color: white;
+}
+
+.text-end {
+    color: white;
+}
