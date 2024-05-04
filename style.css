@@ -238,6 +238,99 @@
     font-weight: 514;
   }
 }
+.container00.container09 {
+  background-image: url(../../images/humanflight/01.webp);
+}
+.container00.container10 {
+  background-image: url(../../images/humanflight/02.jpg);
+}
+.container00.container11 {
+  background-image: url(../../images/humanflight/03.jpg);
+}
+.container00.container12 {
+  background-image: url(../../images/humanflight/04.jpg);
+}
+.container00.container13 {
+  background-image: url(../../images/humanflight/05.jpg);
+}
+
+.container01Content {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content .titleHuman {
+  font-size: 120px;
+}
+.container01Content .subTitleHuman {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.earthDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.earthDesc .textDesc {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+  text-align: center;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+@media (max-width: 735px) {
+  .container01Content .titleHuman {
+    font-size: 90px;
+  }
+  .container01Content img {
+    height: 250px;
+  }
+  .containerRightContent {
+    margin-left: 15%;
+    padding-top: 15px;
+  }
+  .containerLeftContent {
+    margin-left: 15%;
+    padding-top: 15px;
+  }
+}
+@media (max-width: 555px) {
+  .container01Content .titleHuman {
+    font-size: 60px;
+  }
+  .titleSection {
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
 table tr td, table tr th {
   background-color: rgba(0, 0, 0, 0) !important;
 }
